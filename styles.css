@@ -1,0 +1,114 @@
+/* Hecho en grupo con Gonzalo German Argüello*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Montserrat", sans-serif;  
+}
+
+.contenedor-general{
+
+    display: flex;
+    background-color: #8DB47D;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    border-style: double;
+    align-items: center;
+}
+
+
+
+.contenedor-seleccionar{
+
+    background-color: #CD3831 ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    gap: 2vh;
+}
+
+.contenedor-card{
+
+    background-color:#1247A5 ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 95%;
+    gap: 4vh;
+}
+
+.divimagen{
+
+    height: 60%;
+    width: 50%;
+    
+}
+
+.imagen{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#nombrePizza{
+    font-size: 6vh;
+}
+
+#boton{
+    background-color: white ;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vh;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+
+#boton:hover {
+    background-color: pink; 
+    cursor: pointer;
+    color: white;
+}
+
+#precioPizza{
+
+    font-size: 4vh;
+    font-style: italic;
+}
+
+#ingredientePizza{
+
+    border-top: 1px solid #000;
+    padding-top: 3vh;
+
+    font-size: 3vh;
+
+}
